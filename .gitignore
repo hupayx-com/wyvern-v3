@@ -7,3 +7,11 @@ temp/
 .DS_Store
 .nova/
 # .env
+
+coverage
+coverage.json
+typechain
+
+#Hardhat files
+cache
+artifacts
