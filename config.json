@@ -1,13 +1,11 @@
 {
   "deployed": {
     "hpx": {
-      "Migrations": "",
-      "WyvernAtomicizer": "0xa96FFeb00e823f60053E4ca78F6D165D261AA210",
-      "WyvernRegistry": "",
-      "WyvernExchange": "",
-      "WyvernStatic": "",
-      "TestERC20": "",
-      "TestERC721": ""
+      "WyvernAtomicizer": "0xf5DdB677b14277E3D1E363d5C8F2aAc46e2c5b5F",
+      "WyvernStatic": "0xcae2fc054EBE3f1C1480a44dB28D555306B663aF",
+      "StaticMarket": "0xb293B8d58a059cec6fE1Cd5C1ad281e8Fe016bCA",
+      "WyvernRegistry": "0x7B6252aF2154DcCe40Fd17EDff7428F6eba3c0B9",
+      "WyvernExchange": "0x7F4feA77DAab763F72fB5094Ca9e332D545e696f"
     },
     "rinkeby": {
       "Migrations": "0x59851C99DFdD6b564840Bf762faA04a08CC947C9",

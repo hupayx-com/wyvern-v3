@@ -7,6 +7,7 @@ const { setConfig } = require('./config.js')
 const chainIds = {
   development: 50,
   coverage: 50,
+  hpx: 2023,
   rinkeby: 4,
   mumbai: 80001,
   main: 1
@@ -14,6 +15,7 @@ const chainIds = {
 
 const personalSignPrefixes = {
   default: "\x19Ethereum Signed Message:\n",
+  hpx: "\x19Hupayx Signed Message:\n",
   klaytn: "\x19Klaytn Signed Message:\n",
   baobab: "\x19Klaytn Signed Message:\n"
 }

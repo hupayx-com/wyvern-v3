@@ -4,6 +4,10 @@ const getConfig = () => {
   return JSON.parse(fs.readFileSync('config.json'))
 }
 
+const getConfigValue = (param1, param2) => {
+  return JSON.parse(fs.readFileSync('config.json')).deployed[param1][param2];
+}
+
 const updateConfig = (func) => {
   const previous = getConfig()
   const updated = func(previous)
@@ -26,6 +30,7 @@ const setConfig = (path, val) => {
 
 module.exports = {
   getConfig,
+  getConfigValue,
   setConfig,
   updateConfig
 }
